@@ -1,0 +1,18 @@
++How to create repository in Git Hub
+-Have account GitHub
+-Log in to your account
+-Click on profile -> Your repositories -> New -> (Create a new repository)
+-Fill in:
+	Repository name (e.g., my-project)
+	Description (optional)
+	Choose Public or Private
+-Click "Create repository"
+
+
++ How to push code in github
+git init
+git add .
+git commit -m "name of file "
+git branch -M main
+git remote add origin https://github.com/your-username/my-project.git //this is link when create repo
+git push -u origin main
