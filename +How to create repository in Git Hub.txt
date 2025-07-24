@@ -16,3 +16,15 @@ git commit -m "name of file "
 git branch -M main
 git remote add origin https://github.com/your-username/my-project.git //this is link when create repo
 git push -u origin main
+
+
++How to push edited code
+1.Open your terminal (inside your project folder).
+2.Check the status of your changes:
+	git status
+3.Stage your changes:
+	git add .
+4.Commit your changes with a message:
+	git commit -m "Update: edited some files"
+5.Push to GitHub:
+	git push
